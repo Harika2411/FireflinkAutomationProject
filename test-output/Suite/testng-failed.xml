@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="TestRunner(failed)">
+    <classes>
+      <class name="ninzaCRM.Campaigns.CampaignTest">
+        <methods>
+          <include name="acConfig"/>
+          <include name="TC_E2F_05_createCampaignTest"/>
+          <include name="bsConfig"/>
+          <include name="asConfig"/>
+          <include name="amConfig"/>
+          <include name="bmConfig"/>
+          <include name="bcConfig"/>
+        </methods>
+      </class> <!-- ninzaCRM.Campaigns.CampaignTest -->
+    </classes>
+  </test> <!-- TestRunner(failed) -->
+  <test thread-count="2" parallel="tests" name="Test(failed)">
+    <classes>
+      <class name="ninzaCRM.Contacts.CreateContactTest">
+        <methods>
+          <include name="acConfig"/>
+          <include name="sample"/>
+          <include name="TC_E2E_01_createContactTest"/>
+          <include name="bsConfig"/>
+          <include name="amConfig"/>
+          <include name="asConfig"/>
+          <include name="bmConfig"/>
+          <include name="bcConfig"/>
+          <include name="sample1"/>
+        </methods>
+      </class> <!-- ninzaCRM.Contacts.CreateContactTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
