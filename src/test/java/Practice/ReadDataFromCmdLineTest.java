@@ -12,6 +12,8 @@ public class ReadDataFromCmdLineTest {
 		String UN=System.getProperty("username");
 		System.out.println(UN);
 		
+		System.out.println(UN);
+
 		
 		String PWD=System.getProperty("password");
 		System.out.println(PWD);
