@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Aug 22 13:04:39 IST 2025</td>
+<td>Started on:</td><td>Sat Aug 23 11:24:17 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>6 seconds (6160 ms)</td>
+<tr><td>Total time:</td><td>4 seconds (4855 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -77,14 +77,15 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='ninzaCRM.Campaigns.CampaignTest.amConfig()'><b>amConfig</b><br>Test class: ninzaCRM.Campaigns.CampaignTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class=&apos;user-icon&apos;]
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[text()=&apos;Logout &apos;]&quot;}
+  (Session info: chrome=139.0.7258.67)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [86ae2eb1-e5a4-49bf-9a59-c864ef4353b2, findElement {using=xpath, value=//div[@class=&apos;user-icon&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 142.0, moz:accessibilityChecks: false, moz:buildID: 20250811145442, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23240, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 86ae2eb1-e5a4-49bf-9a59-c864ef4353b2
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d8cf0835ab361646acd797119cdb2e00, findElement {using=xpath, value=//div[text()=&apos;Logout &apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63523}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63523/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d8cf0835ab361646acd797119cdb2e00
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -102,8 +103,8 @@ Session ID: 86ae2eb1-e5a4-49bf-9a59-c864ef4353b2
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
-	at ninzaCRM.ObjectRepository.DashBoardPage.UserIconClick(DashBoardPage.java:167)
-	at firelink.ninzaCRM.GenericUtitlity.BaseClass.amConfig(BaseClass.java:91)
+	at ninzaCRM.ObjectRepository.DashBoardPage.logoutClick(DashBoardPage.java:170)
+	at firelink.ninzaCRM.GenericUtitlity.BaseClass.amConfig(BaseClass.java:92)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -135,15 +136,16 @@ Session ID: 86ae2eb1-e5a4-49bf-9a59-c864ef4353b2
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1167068004", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1167068004'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class=&apos;user-icon&apos;]
+</pre></div><a href='#' onClick='toggleBox("stack-trace2035387904", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2035387904'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[text()=&apos;Logout &apos;]&quot;}
+  (Session info: chrome=139.0.7258.67)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [86ae2eb1-e5a4-49bf-9a59-c864ef4353b2, findElement {using=xpath, value=//div[@class=&apos;user-icon&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 142.0, moz:accessibilityChecks: false, moz:buildID: 20250811145442, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23240, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 86ae2eb1-e5a4-49bf-9a59-c864ef4353b2
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d8cf0835ab361646acd797119cdb2e00, findElement {using=xpath, value=//div[text()=&apos;Logout &apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63523}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63523/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d8cf0835ab361646acd797119cdb2e00
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -161,8 +163,8 @@ Session ID: 86ae2eb1-e5a4-49bf-9a59-c864ef4353b2
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
-	at ninzaCRM.ObjectRepository.DashBoardPage.UserIconClick(DashBoardPage.java:167)
-	at firelink.ninzaCRM.GenericUtitlity.BaseClass.amConfig(BaseClass.java:91)
+	at ninzaCRM.ObjectRepository.DashBoardPage.logoutClick(DashBoardPage.java:170)
+	at firelink.ninzaCRM.GenericUtitlity.BaseClass.amConfig(BaseClass.java:92)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -208,14 +210,20 @@ Session ID: 86ae2eb1-e5a4-49bf-9a59-c864ef4353b2
 </tr>
 <tr>
 <td title='ninzaCRM.Campaigns.CampaignTest.TC_E2F_05_createCampaignTest()'><b>TC_E2F_05_createCampaignTest</b><br>Test class: ninzaCRM.Campaigns.CampaignTest</td>
-<td><div><pre>org.openqa.selenium.UnhandledAlertException: Unexpected alert dialog detected. Performed handler &quot;dismiss&quot;: Invalid Credentials
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;campaignName&apos;]&quot;}
+  (Session info: chrome=139.0.7258.67)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [86ae2eb1-e5a4-49bf-9a59-c864ef4353b2, findElement {using=xpath, value=//a[text()=&apos;Campaigns&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 142.0, moz:accessibilityChecks: false, moz:buildID: 20250811145442, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23240, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 86ae2eb1-e5a4-49bf-9a59-c864ef4353b2
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d8cf0835ab361646acd797119cdb2e00, findElement {using=xpath, value=//input[@name=&apos;campaignName&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63523}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63523/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d8cf0835ab361646acd797119cdb2e00
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
@@ -227,9 +235,9 @@ Session ID: 86ae2eb1-e5a4-49bf-9a59-c864ef4353b2
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
-	at ninzaCRM.ObjectRepository.DashBoardPage.CampaignClick(DashBoardPage.java:126)
-	at ninzaCRM.Campaigns.CampaignTest.TC_E2F_05_createCampaignTest(CampaignTest.java:31)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.sendKeys(Unknown Source)
+	at ninzaCRM.ObjectRepository.CreateCampaignPage.creatingCampaign(CreateCampaignPage.java:83)
+	at ninzaCRM.Campaigns.CampaignTest.TC_E2F_05_createCampaignTest(CampaignTest.java:44)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -256,15 +264,21 @@ Session ID: 86ae2eb1-e5a4-49bf-9a59-c864ef4353b2
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1505774574", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1505774574'><pre>org.openqa.selenium.UnhandledAlertException: Unexpected alert dialog detected. Performed handler &quot;dismiss&quot;: Invalid Credentials
+</pre></div><a href='#' onClick='toggleBox("stack-trace769342184", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace769342184'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;campaignName&apos;]&quot;}
+  (Session info: chrome=139.0.7258.67)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [86ae2eb1-e5a4-49bf-9a59-c864ef4353b2, findElement {using=xpath, value=//a[text()=&apos;Campaigns&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 142.0, moz:accessibilityChecks: false, moz:buildID: 20250811145442, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23240, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 86ae2eb1-e5a4-49bf-9a59-c864ef4353b2
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d8cf0835ab361646acd797119cdb2e00, findElement {using=xpath, value=//input[@name=&apos;campaignName&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63523}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63523/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d8cf0835ab361646acd797119cdb2e00
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
@@ -276,9 +290,9 @@ Session ID: 86ae2eb1-e5a4-49bf-9a59-c864ef4353b2
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
-	at ninzaCRM.ObjectRepository.DashBoardPage.CampaignClick(DashBoardPage.java:126)
-	at ninzaCRM.Campaigns.CampaignTest.TC_E2F_05_createCampaignTest(CampaignTest.java:31)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.sendKeys(Unknown Source)
+	at ninzaCRM.ObjectRepository.CreateCampaignPage.creatingCampaign(CreateCampaignPage.java:83)
+	at ninzaCRM.Campaigns.CampaignTest.TC_E2F_05_createCampaignTest(CampaignTest.java:44)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -306,7 +320,7 @@ Session ID: 86ae2eb1-e5a4-49bf-9a59-c864ef4353b2
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>0</td>
+<td>1</td>
 <td>ninzaCRM.Campaigns.CampaignTest@158a8276</td></tr>
 </table><p>
 </body>
